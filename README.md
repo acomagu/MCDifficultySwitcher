@@ -2,6 +2,8 @@
 
 A Minecraft Bedrock Edition script that provides a UI for switching game difficulty without requiring cheats.
 
+![Image](./demo.png)
+
 ## Installation
 
 1.  [Download the latest `MCDifficultySwitcher.mcpack` from the latest release.](https://github.com/acomagu/MCDifficultySwitcher/releases/latest/download/MCDifficultySwitcher.mcpack)
