@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Difficulty Switcher",
+    "description": "A UI for switching difficulty without cheats",
+    "uuid": "7f6dcada-c8c8-43e1-a0eb-3fe5ef6a7d4a",
+    "version": [0,0,1],
+    "min_engine_version": [1,21,80]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "ed48cd09-72bd-48d8-b5aa-762c850a9335",
+      "version": [0,0,1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server",    "version": "2.0.0" },
+    { "module_name": "@minecraft/server-ui", "version": "2.0.0" }
+  ]
+}
+

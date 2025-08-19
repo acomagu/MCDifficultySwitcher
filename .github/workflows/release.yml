@@ -1,0 +1,18 @@
+name: Release
+permissions:
+  contents: write
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Archive
+      run: zip -r MCDifficultySwitcher.mcpack manifest.json scripts README.md
+    - name: Create Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: MCDifficultySwitcher.mcpack
